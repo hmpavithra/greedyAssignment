@@ -1,0 +1,56 @@
+.rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+ul.rating {
+    display: inline-block;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rating .filled {
+    color: black;
+}
+
+.track-list{
+
+    border: 1px solid black;
+    list-style-type: none;
+    margin-bottom: 0px;
+
+}
+
+.txt-center{
+    text-align:center
+}
+
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.btn-mrgin-bottom{
+
+    margin-bottom:40px;
+}
+
+.edit-icon{
+    padding-left: 20px;
+    float:right;
+}

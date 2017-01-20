@@ -1,0 +1,26 @@
+
+<div class="container">
+	<h1 class="txt-center">{{label.lbl_track_genre}}</h1>
+	<ul class="list-group track-list" ng-repeat="genrs in genreslist">
+		<li class="list-group-item" ng-click="editGenre(genrs);">{{genrs.name}}<span class="edit-icon"><i class="glyphicon glyphicon-pencil"></i></li>
+	</ul><br/>
+
+	<div class="txt-center btn-mrgin-bottom">
+		<button type="button" class="btn btn-default btn-lg" ng-click="addGenre();">{{label.lbl_add_new_genre}}</button>
+	</div>
+</div>
+
+<br/>
+
+<div class="container" ng-show="addgen || editgen">
+<br/>
+		<div class="form-group">
+			<label>{{label.lbl_genre_name}}</label>
+			<input type="text" ng-model="genrename"/>	<br/>
+		</div>
+		
+	<div class="text-center btn-mrgin-bottom">
+		<button type="button" class="btn btn-default btn-lg" ng-click="submitGenre();">{{label.lbl_submit}}</button>
+	</div>
+</div>
+	

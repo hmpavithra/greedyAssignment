@@ -1,0 +1,15 @@
+{
+	"labels":{
+
+"lbl_add_new_track":"Add New Track",
+"lbl_add_new_genre":"Add New Genre",
+"lbl_title":"Title",
+"lbl_submit":"Submit",
+"lbl_rating":"Rating",
+"lbl_genre_name":"Genre Name",
+"lbl_music_tracks":"Music Tracks",
+"lbl_track_genre":"Track's Genre",
+"url_get_track_list":"http://104.197.128.152:8000/v1/tracks",
+"url_get_genres_list":"http://104.197.128.152:8000/v1/genres"
+	}
+}
